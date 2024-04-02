@@ -1,2 +1,2 @@
-Link web deploy: https://joke-content.vercel.app/
+Link web deploy: https://joke-content-app-zens.vercel.app
 Link API .NET: https://joke-content.azurewebsites.net/swagger/index.html
