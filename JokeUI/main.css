@@ -1,0 +1,111 @@
+.top-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.user-name {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 200;
+  text-align: right;
+}
+p {
+  display: block;
+}
+
+.avatar {
+  margin-right: 200px;
+  border-radius: 50%;
+  width: 60px; /* Hoặc kích thước mong muốn khác */
+  height: 60px;
+}
+
+.right-side {
+  display: flex;
+}
+
+.logo {
+  margin-left: 250px;
+  width: auto; /* Hoặc kích thước mong muốn khác */
+  height: auto;
+}
+
+.user-name .highlight {
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: italic;
+  color: #888; /* Đổi màu chữ của phần "Handicrafted by" thành màu xám nhạt */
+}
+
+.slogan {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  height: 200px;
+  color: white;
+  background-color: #29b363;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan h3,
+.slogan p {
+  margin: 0; /* Loại bỏ margin mặc định */
+}
+
+.joke-content {
+  color: #888;
+  font-family: "Nanum Gothic", sans-serif;
+  margin-left: auto; /* Căn giữa theo chiều ngang */
+  margin-right: auto; /* Căn giữa theo chiều ngang */
+  width: 700px; /* Thiết lập chiều rộng */
+  height: auto; /* Thiết lập chiều cao */
+  /* Màu nền */
+  padding: 20px; /* Padding cho nội dung */
+  box-sizing: border-box; /* Đảm bảo chiều rộng và chiều cao tính cả padding và border */
+}
+
+hr.solid {
+  width: 500px;
+  border-top: 0.1px solid #bbb;
+}
+
+.vote {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#funny {
+  font-family: "Nanum Gothic", sans-serif;
+  margin-left: 580px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #2c7edb;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#not-funny {
+  font-family: "Nanum Gothic", sans-serif;
+  margin-right: 580px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #29b363;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+hr.solid-bottom {
+  border-top: 0.1px solid #bbb;
+}
+
+.bottom-content {
+  font-weight: normal;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #888;
+  text-align: center;
+}
+
+#coppyright {
+  color: black;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Joke Content</title>
+</head>
+
+<body>
+    <div class="top-heading">
+        <img class="logo" src="./images/logo.png">
+        <div class="right-side">
+            <p class="user-name"><span class="highlight">Handicrafted by</span> <br /> Jim HLS</p>
+            <img class="avatar" src="./images/avatar.png">
+        </div>
+    </div>
+
+    <div class="slogan">
+        <h1>A joke a day keeps the doctor away</h1>
+        <p>If you joke wrong way, your teeth have to pay. (Serious)</p>
+    </div>
+
+    <div class="joke-content">
+        <p id="item-joke-content">
+
+        </p>
+    </div>
+    <hr class="solid">
+
+    <div class="vote">
+        <div id="funny">This is Funny!</div>
+        <div id="not-funny">This is not funny.</div>
+    </div>
+
+    <hr class="solid-bottom">
+    <div class="bottom-content">
+        <p>This website is created as part of Misolutions program. The materials contained on this website are provided
+            for general <br />
+
+            information only and do not constitute anziorm of advice, His assumes no responsibility for the accuracy of
+            any particular statement and <br />
+            acceots no liability for any loss or damage which may arse from reliance on the information contained on
+            this site.</p>
+        <p id="coppyright">Coppyright 2021 HLS</p>
+
+    </div>
+    <script src="CallAPI.js"></script>
+    <script>
+        reloadPage();
+        loadPageInFirstTime();
+        reloadPage();
+        changeJokeContentFunny();
+        changeJokeContentNotFunny();
+    </script>
+</body>
+
+</html>
